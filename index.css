@@ -12,7 +12,13 @@ body {
 
 .flex-container {
     display: flex;
-    background-color:#363636
+    background-color:#363636;
+    border-radius: 12px;
+}
+
+.custom-flex-column {
+    padding-top:1.5em;
+    padding-left:2em;
 }
 
 .circle-image {
@@ -24,6 +30,10 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.link-button {
+    display: inline-flex;
 }
 
 /* Probably not the best way to do this, but I needed some way of separating a bunch of crap, and this should work */
@@ -56,6 +66,11 @@ a:link, a:visited {
     font-style: normal;
     font-size: large !important;
     text-decoration: none;
+}
+
+.light-dark {
+    font-weight:100;
+    color:#cfcfcf;
 }
 
 a:hover, a:active {
