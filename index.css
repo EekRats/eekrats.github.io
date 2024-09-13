@@ -1,8 +1,13 @@
 body {
     background-color: #292929;
     color: #808080;
+
     padding-left: 10em;
     text-align: left;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .circle-image {
@@ -23,6 +28,15 @@ body {
     padding-bottom: 2.5em;
 }
 
+.link-button
+{
+    padding-top:1em;
+
+    border-radius: 8px;
+
+    font-size: large !important;
+}
+
 /* Past this point are a bunch of definitions for fonts. Very messy and repetitive. Please ignore */
 
 p {
@@ -37,40 +51,4 @@ a {
     font-style: normal;
     text-decoration: none;
     color: inherit;
-}
-
-.roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
 }
