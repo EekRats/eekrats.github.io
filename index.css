@@ -17,6 +17,7 @@ body
     background-color: #363636;
     border-radius: 12px;
     height: 45em;
+    width: 40em;
 }
 
 .custom-flex-column
