@@ -1,19 +1,62 @@
-body
-{
-    background-color:#292929;
-    color:#808080;
-    padding-left:10em;
+body {
+    background-color: #292929;
+    color: #808080;
+    padding-left: 10em;
     text-align: left;
 }
 
-.circle-image
-{
+.circle-image {
     display: inline-block;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-  
+
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+/* Probably not the best way to do this, but I needed some way of separating a bunch of crap, and this should work */
+.content-divider
+{
+    padding-top:2.5em;
+    padding-bottom: 2.5em;
+}
+
+/* Past this point are a bunch of definitions for fonts. Very messy and repetitive. Please ignore */
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
