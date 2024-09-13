@@ -1,4 +1,5 @@
-body {
+body
+{
     background-color: #292929;
     color: #f0f0f0;
     padding-left: 10em;
@@ -8,21 +9,25 @@ body {
     font-style: normal;
 }
 
-.flex-container {
+.flex-container
+{
     display: flex;
     background-color: #363636;
     border-radius: 12px;
     height: 45em;
     width: 40em;
-    margin: 0 auto; /* Center on the screen */
+    margin: 0 auto;
+    /* Center on the screen */
 }
 
-.custom-flex-column {
+.custom-flex-column
+{
     padding-top: 1.5em;
     padding-left: 2em;
 }
 
-.circle-image {
+.circle-image
+{
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -32,22 +37,26 @@ body {
     background-size: cover;
 }
 
-.link-button {
+.link-button
+{
     display: inline-flex;
 }
 
-.content-divider {
+.content-divider
+{
     padding-top: 2.5em;
     padding-bottom: 2.5em;
 }
 
-.content-divider-1 {
+.content-divider-1
+{
     padding-top: 0.75em;
     padding-bottom: 0.75em;
 }
 
 a:link,
-a:visited {
+a:visited
+{
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 1em;
@@ -63,90 +72,115 @@ a:visited {
     text-decoration: none;
 }
 
-.light-dark {
+.light-dark
+{
     font-weight: 100;
     color: #cfcfcf;
 }
 
 a:hover,
-a:active {
+a:active
+{
     background-color: #535353;
 }
 
-p {
+p
+{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
-.font-inherit {
+.font-inherit
+{
     font-family: inherit;
     font-weight: inherit;
     color: inherit;
 }
 
-h1 {}
+h1
+{}
 
-h2 {
+h2
+{
     font-family: "Roboto", sans-serif;
     font-weight: inherit;
 }
 
 /* Media Queries for mobile responsiveness */
-@media screen and (max-width: 768px) {
-    body {
+@media screen and (max-width: 768px)
+{
+    body
+    {
         padding-left: 1em;
         padding-right: 1em;
-        text-align: center; /* Center the text for better readability on small screens */
+        text-align: center;
+        /* Center the text for better readability on small screens */
     }
 
-    .flex-container {
-        flex-direction: column; /* Stack items vertically */
-        height: auto; /* Let height adjust naturally */
-        width: 100%; /* Take full width of the screen */
-        padding: 1em; /* Add some padding */
+    .flex-container
+    {
+        flex-direction: column;
+        /* Stack items vertically */
+        height: auto;
+        /* Let height adjust naturally */
+        width: 100%;
+        /* Take full width of the screen */
+        padding: 1em;
+        /* Add some padding */
     }
 
-    .custom-flex-column {
+    .custom-flex-column
+    {
         padding-left: 0;
         padding-top: 1em;
     }
 
-    .circle-image {
+    .circle-image
+    {
         width: 100px;
         height: 100px;
     }
 
     a:link,
-    a:visited {
+    a:visited
+    {
         padding-left: 0.5em;
         padding-right: 0.5em;
-        font-size: medium !important; /* Adjust font size */
+        font-size: medium !important;
+        /* Adjust font size */
     }
 
-    .content-divider {
+    .content-divider
+    {
         padding-top: 1em;
         padding-bottom: 1em;
     }
 
-    .content-divider-1 {
+    .content-divider-1
+    {
         padding-top: 0.5em;
         padding-bottom: 0.5em;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .circle-image {
+@media screen and (max-width: 480px)
+{
+    .circle-image
+    {
         width: 80px;
         height: 80px;
     }
 
-    .flex-container {
-        padding: 0.5em; /* Less padding on very small screens */
+    .flex-container
+    {
+        padding: 0.5em;
+        /* Less padding on very small screens */
     }
 
     a:link,
-    a:visited {
+    a:visited
+    {
         font-size: small !important;
     }
 }
