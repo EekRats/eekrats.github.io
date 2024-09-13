@@ -25,6 +25,18 @@ body {
 
 /* Past this point are a bunch of definitions for fonts. Very messy and repetitive. Please ignore */
 
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 .roboto-light {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
