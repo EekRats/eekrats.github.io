@@ -28,34 +28,39 @@ body {
     padding-bottom: 2.5em;
 }
 
-.link-button
+.content-divider-1
 {
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+a:link, a:visited {
     padding-top: .5em;
     padding-bottom: .5em;
     padding-left: 1em;
     padding-right: 1em;
 
     border-radius: 8px;
+
     border-color: #7a7a7a;
-
     background-color: #434343;
-
-    font-size: large !important;
     color:#f0f0f0;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large !important;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    background-color: #535353;
 }
 
 p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-}
-
-a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    text-decoration: none;
-    color: inherit;
 }
 
 .font-inherit {
