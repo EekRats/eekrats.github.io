@@ -1,6 +1,6 @@
 body {
     background-color: #292929;
-    color: #808080;
+    color: #f0f0f0;
 
     padding-left: 10em;
     text-align: left;
@@ -31,13 +31,14 @@ body {
 .link-button
 {
     padding-top:1em;
-
     border-radius: 8px;
+    border-color: #363636;
+
+    background-color: #2b2b2b;
 
     font-size: large !important;
+    color:#f0f0f0;
 }
-
-/* Past this point are a bunch of definitions for fonts. Very messy and repetitive. Please ignore */
 
 p {
     font-family: "Roboto", sans-serif;
@@ -51,4 +52,19 @@ a {
     font-style: normal;
     text-decoration: none;
     color: inherit;
+}
+
+.font-inherit {
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+h1 {
+
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: inherit;
 }
