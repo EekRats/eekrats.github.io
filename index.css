@@ -1,18 +1,14 @@
-body
-{
+body {
     background-color: #292929;
     color: #f0f0f0;
-
     padding-left: 2em;
     text-align: left;
-
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
-.flex-container
-{
+.flex-container {
     display: flex;
     background-color: #363636;
     border-radius: 12px;
@@ -20,57 +16,46 @@ body
     width: 40em;
 }
 
-.custom-flex-column
-{
+.custom-flex-column {
     padding-top: 1.5em;
     padding-left: 2em;
 }
 
-.circle-image
-{
+.circle-image {
     display: inline-block;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-.link-button
-{
+.link-button {
     display: block;
     margin-bottom: 0.5em;
 }
 
-/* Probably not the best way to do this, but I needed some way of separating a bunch of crap, and this should work */
-.content-divider
-{
+.content-divider {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
 }
 
-.content-divider-1
-{
+.content-divider-1 {
     padding-top: 0.75em;
     padding-bottom: 0.75em;
 }
 
 a:link,
-a:visited
-{
+a:visited {
     padding-top: .5em;
     padding-bottom: .5em;
     padding-left: 1em;
     padding-right: 1em;
-
     border-radius: 8px;
-
     border-color: #7a7a7a;
     background-color: #434343;
     color: #f0f0f0;
-
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -78,43 +63,29 @@ a:visited
     text-decoration: none;
 }
 
-.light-dark
-{
+.light-dark {
     font-weight: 100;
     color: #cfcfcf;
 }
 
 a:hover,
-a:active
-{
+a:active {
     background-color: #535353;
 }
 
-p
-{
+p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
-.font-inherit
-{
+.font-inherit {
     font-family: inherit;
     font-weight: inherit;
     color: inherit;
 }
 
-h1
-{}
-
-h2
-{
-    font-family: "Roboto", sans-serif;
-    font-weight: inherit;
-}
-
-button
-{
+button {
     display: block;
     font-size: 1.5em;
     margin-top: 0.83em;
@@ -123,4 +94,28 @@ button
     margin-right: 0;
     font-weight: inherit;
     font-family: "Roboto", sans-serif;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    background-color: #434343;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.collapsible.active {
+    background-color: #535353;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
