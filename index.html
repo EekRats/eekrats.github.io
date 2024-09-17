@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +12,7 @@
     <title>Silas Eacret</title>
 </head>
 
-<body class="roboto-light">
+<body class="roboto-light" onload="pageLoad()">
     <div id="header">
         <img class="circle-image" src="profilepicture.jpg" alt="Silas Eacret">
         <h1>Silas Eacret</h1>
@@ -23,12 +24,12 @@
     </div>
     <hr>
     <div id="links">
-        <h2>Links, Social Media, and Other Such Things</h2>
+        <button class="collapsible">Links, Social Media, and Other Such Things</button>
         <div class="flex-container">
             <div class="custom-flex-column">
                 <a class="link-button" href="https://snapchat.com/add/silas.eac" target="_blank">Snapchat</a>
                 <a class="link-button" href="https://threads.net/@silaseacret" target="_blank">Threads</a>
-                <a class="link-button" href="https://instgram.com/silaseacret" target="_blank">Instagram</a>
+                <a class="link-button" href="https://instagram.com/silaseacret" target="_blank">Instagram</a>
                 <a class="link-button" href="https://github.com/eekrats" target="_blank">GitHub</a>
                 <a class="link-button" href="https://steamcommunity.com/id/EekRats" target="_blank">Steam</a>
                 <a class="link-button" href="https://open.spotify.com/user/eekrats" target="_blank">Spotify</a>
@@ -36,12 +37,43 @@
                 <a class="link-button" href="https://paypal.me/eekrats" target="_blank">PayPal</a>
                 <a class="link-button" href="https://account.venmo.com/u/eekrats" target="_blank">Venmo</a>
             </div>
-            </div>
         </div>
-        <hr>
-        <div id="projects">
-            <h2>My Projects</h2>
+    </div>
+    <hr>
+    <div id="projects">
+        <button class="collapsible">My Projects</button>
+        <p>I guess I don't really have any major<br>projects since moving in at UWEC,<br> but I'm always coming up with
+            dope metalcore riffs, covers, etc.</p>
+    </div>
+    <hr>
+    <div id="specs">
+        <button class="collapsible">Specs and Details on Things</button>
+        <div>
+            <p>PC:</p>
+            <ul>
+                <li>AMD Ryzen 5 5600X, 6 Cores at 4.20 gHz</li>
+                <li>NVIDIA GeForce RTX 3070</li>
+                <li>28GB DDR4 at various speeds because I'm poor</li>
+                <li>1TB M.2 NVMe SSD</li>
+                <li>512GB SATA SSD</li>
+                <li>2TB SATA HDD</li>
+            </ul>
+            <p>Guitars/Related:</p>
+            <ul>
+                <li>Ibanez RG6003FM w/ Ernie Ball Mammoth Slinkies</li>
+                <li>Epiphone Les Paul Special II w/ Ernie Ball Super Slinkies</li>
+                <li>Fender Acoustic FA-100 w/ D'Addario 80/20 Bronze EJ12 Mediums</li>
+                <li>Sterling Harmony H224 Audio Interface</li>
+                <li>Blackstar ID:CORE 20 Solid-State Amp</li>
+                <li>Donner Morpher Distortion Pedal</li>
+                <li>Donner EQ Seeker Pedal</li>
+                <li>Donner Ultimate Comp Compressor Pedal</li>
+                <li>VSN Octopus Octave Pedal</li>
+                <li>Bitwig Studio DAW + IK Multimedia AmpliTube 5</li>
+                <li>Unlimited 0s and 1s and 5-7-8 Riffs \m/</li>
+            </ul>
         </div>
+    </div>
 </body>
 
 </html>

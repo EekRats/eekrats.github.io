@@ -40,7 +40,8 @@ body
 
 .link-button
 {
-    display: inline-flex;
+    display: block;
+    margin-bottom: 0.5em;
 }
 
 /* Probably not the best way to do this, but I needed some way of separating a bunch of crap, and this should work */
@@ -110,4 +111,16 @@ h2
 {
     font-family: "Roboto", sans-serif;
     font-weight: inherit;
+}
+
+button
+{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: inherit;
+    font-family: "Roboto", sans-serif;
 }
