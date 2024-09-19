@@ -21,6 +21,7 @@ body {
 
 .custom-flex-column {
     padding-top: 1em;
+    width: 12.5em;
 }
 
 .circle-image {
@@ -116,8 +117,8 @@ hr {
 
 @media screen and (min-width: 600px) {
     .circle-image {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
     }
 
     .flex-container {
@@ -139,6 +140,7 @@ hr {
 
     .custom-flex-column {
         padding-left: 2em;
+        width: 12.5em;
     }
 
     a:link,
